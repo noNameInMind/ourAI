@@ -1,0 +1,47 @@
+.collection {
+  margin: 6rem 2rem;
+  background: #13124f;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.collection__img {
+  position: absolute;
+  top: -4rem;
+  left: 25%;
+  right: 25%;
+}
+
+.collection__img:hover {
+  top: -6rem;
+}
+
+.collection__img img {
+  width: 102px;
+  height: 102px;
+
+  background-color: white;
+  border-radius: 50%;
+}
+
+.collection__content {
+  padding: 2rem;
+}
+
+/* ----------------------------- */
+
+@media screen and (max-width: 1150px) {
+  .collection {
+    margin: 4rem 0.5rem;
+  }
+
+  .collection__content {
+    padding: 2rem 0.5rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .collection {
+    max-width: 20rem;
+  }
+}

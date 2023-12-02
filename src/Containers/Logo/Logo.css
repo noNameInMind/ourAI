@@ -1,0 +1,21 @@
+/* .app__logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.app__logo-img {
+  border-radius: 15px;
+  background: rgba(99, 88, 141, 0.25);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.app__logo-img img {
+  width: 227px;
+  height: 61px;
+}

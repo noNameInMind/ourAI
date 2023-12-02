@@ -1,0 +1,15 @@
+.app__cta-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 24rem;
+
+  border-radius: 1.875rem;
+  background: var(--gradient-background);
+}
+
+.app__cta-content button:hover {
+  width: 18rem;
+  height: 5rem;
+}

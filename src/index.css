@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --font-alt: "Open Sans", sans-serif;
+  --font-robot: "Roboto", sans-serif;
+
+  --background: #000230;
+  --color-white: #fff;
+  --color-violit: #8d8dda;
+  --color-cyan: #abd9d9;
+  --color-black: #000;
+  --gradient-background: linear-gradient(
+    274deg,
+    rgba(171, 217, 217, 0.8) 0%,
+    rgba(76, 76, 214, 0.75) 92.72%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0.8s;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--background);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

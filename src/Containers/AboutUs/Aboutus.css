@@ -1,0 +1,9 @@
+.revers {
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 650px) {
+  .revers {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+}

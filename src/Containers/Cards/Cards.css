@@ -1,0 +1,20 @@
+.app__cards-text {
+  margin: 1rem 0;
+}
+
+.app__cards-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+  .app__cards-content {
+    flex-direction: column;
+  }
+
+  .app__cards-text {
+    margin-bottom: 2.5rem;
+  }
+}
