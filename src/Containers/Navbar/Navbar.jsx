@@ -14,7 +14,7 @@ const Navbar = () => {
 
   const closeHandler = async () => {
     setActive("");
-    await delay(820);
+    await delay(800);
     setToggleMenu(false);
   };
 
