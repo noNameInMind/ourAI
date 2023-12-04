@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ourAI/static/css/main.6dab028c.css",
+    "main.js": "/ourAI/static/js/main.a5884583.js",
+    "static/media/1.png": "/ourAI/static/media/1.64c2b3069f7f749ad951.png",
+    "static/media/React-icon.png": "/ourAI/static/media/React-icon.b76698cf6e821b8a8758.png",
+    "static/media/gptwithbg.jpg": "/ourAI/static/media/gptwithbg.0be1e18290d9f861f427.jpg",
+    "static/media/ChatGPT-Logo2.svg": "/ourAI/static/media/ChatGPT-Logo2.721068e72c7ccf997f8b13ab8aa18692.svg",
+    "static/media/python.png": "/ourAI/static/media/python.448fb2a83595fa5c5c8a.png",
+    "static/media/networkbrain-white.svg": "/ourAI/static/media/networkbrain-white.7dc1e6bfbbb73e0821f74246358d1ba4.svg",
+    "index.html": "/ourAI/index.html",
+    "main.6dab028c.css.map": "/ourAI/static/css/main.6dab028c.css.map",
+    "main.a5884583.js.map": "/ourAI/static/js/main.a5884583.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dab028c.css",
+    "static/js/main.a5884583.js"
+  ]
+}
